@@ -1,0 +1,20 @@
+{
+  "name": "finland_express_part",
+  "version": "1.0.0",
+  "description": "Express exercises",
+  "main": "index.js",
+  "author": "avgust",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  }
+}

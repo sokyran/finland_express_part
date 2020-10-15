@@ -1,0 +1,19 @@
+GET http://localhost:3001/api/persons 
+
+###
+GET http://localhost:3001/iasdanfo 
+
+###
+
+GET http://localhost:3001/api/persons/123
+
+###
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+	"name": "Ada",
+	"number": "091-5112"
+}
+
