@@ -40,10 +40,6 @@ app.use(cors());
 morgan.token('body', (req, res) => JSON.stringify(req.body));
 app.use(morgan(':method :url :status :total-time[3] ms :body'));
 
-app.get('/', (req, res) => {
-  res.send('home');
-});
-
 app.get('/info', (req, res) => {
   res.send(`Phonebook has info for ${persons.length} people\n${new Date()}`);
 });
