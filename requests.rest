@@ -1,11 +1,12 @@
 GET http://localhost:3001/api/persons 
 
 ###
-GET http://localhost:3001/iasdanfo 
+
+GET http://localhost:3001/api/persons/5f895cf049409a386c65e3f7
 
 ###
 
-GET http://localhost:3001/api/persons/123
+GET http://localhost:3001/info
 
 ###
 
@@ -13,7 +14,7 @@ POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-	"name": "Ada",
-	"number": "091-5112"
+	"name": "A",
+	"number": "891-7078"
 }
 
